@@ -1,0 +1,51 @@
+{
+  "personas": [
+    {
+      "id": 1,
+      "nombre": "Ana"
+    },
+    {
+      "id": 2,
+      "nombre": "Luis"
+    },
+    {
+      "id": 3,
+      "nombre": "Pedro"
+    },
+    {
+      "id": 4,
+      "nombre": "María"
+    },
+    {
+      "id": 5,
+      "nombre": "Juan"
+    },
+    {
+      "id": 6,
+      "nombre": "Lucía"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": 1,
+      "destino": 3,
+      "tipo": "amistad"
+    },
+    {
+      "origen": 2,
+      "destino": 6,
+      "tipo": "amistad"
+    },
+    {
+      "origen": 3,
+      "destino": 6,
+      "tipo": "amistad"
+    },
+    {
+      "origen": 5,
+      "destino": 6,
+      "tipo": "seguimiento"
+    }
+  ],
+  "tipo_grafo": "No dirigido"
+}
